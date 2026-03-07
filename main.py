@@ -8,7 +8,7 @@ intents = discord.Intents.default()
 intents.members = True  # Üye join eventleri için gerekli
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-AUTO_ROLE_ID = 1474832131363442858  # Otomatik verilecek rol ID'si
+AUTO_ROLE_ID = 1479868698943553699 # Otomatik verilecek rol ID'si
 
 @bot.event
 async def on_ready():
